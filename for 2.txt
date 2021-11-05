@@ -1,0 +1,9 @@
+r1=int(input())
+r2=int(input())
+n=int(input())
+if r1<r2:
+    for i in range(r1,r2+1):
+         print(n,'*',i,'+',n*i)
+else:
+    for i in range(r1,r2-1,-1):
+        print(n,'*',i,'+',n*i)
